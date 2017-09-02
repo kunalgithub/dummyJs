@@ -1,5 +1,5 @@
 function iamReady(){
-        console.log(“Do I have access to xhr”, xhr);
+    console.log("Access to XHR",xhr);
 	$(document).foundation();
-	console.log('Foosa Hakuna Matata');
+	console.log("Foosa Hakuna Matata");
 }
