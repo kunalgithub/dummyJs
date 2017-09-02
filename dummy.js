@@ -3,3 +3,4 @@ function iamReady(){
 	$(document).foundation();
 	console.log("Foosa Hakuna Matata");
 }
+iamReady();
