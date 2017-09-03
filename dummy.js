@@ -3,7 +3,7 @@ specialRequest(function(error, xhr) { console.log('custom-Function',error,xhr);
         console.log('error:',error);
     } else {
          console.log('xhr:',xhr);
-         if(xhr.readyState===4 && status===200){
+         if(xhr.readyState===4 && xhr.status===200){
          	console.log('will call foundation here')
          }
     }
