@@ -1,3 +1,6 @@
+if(xhr.readyState===4 && xhr.status===200){
+	console.log('custom-Function',xhr);
+}
 specialRequest(function(error, xhr) { console.log('custom-Function',error,xhr);
     if (error) {
         console.log('error:',error);
